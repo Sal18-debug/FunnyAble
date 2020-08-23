@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: bisque;
+  background-image: url(http://corvus.noip.me/img/ducks.jpg);
+  background-position: top left;
+  background-size: 150px 150px;
+}
+
+a {
+  color: #369;
+}
+
+a:hover {
+  color: #963;
+}
+
+.blogs a {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.blogs a img {
+  width: 200px;
+  height: 150px;
+  max-width: 200px;
+}
+
+a {
+  .display: block;
+  .margin: 1em auto;
+  .width: 90%;
+  .max-width: 600px;
+  text-decoration: none;
+}
+
+img{
+  width: 200px;
+  height: 150px;
+  max-width: 200px;
+  margin-left: 1em;
+  border: 1px solid #000;
+}
+
+.blogs a {
+  .text-align: center;
+}
+
+h1 {
+  margin: 0 0 1em 0;
+}
+
+h2, h3, p {
+  margin: 1em;
+}
+
+h1 {
+  background-color: #feef45;
+  padding: 0.25em;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+
+h1 em {
+  display: inline-block;
+  width: 99%;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 0.5em;
+  text-align: right;
+	padding-right: 50px
+}
+
+
+h2 {
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  margin-left: 1em;
+  margin-bottom: 2em;
+}
+
+.entry {
+  margin: 1em;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.entry h3 {
+  font-weight: normal;
+  margin-bottom: 1em;
+  color: #369;
+}
+
+.entry h3:hover {
+  color: #963;
+  cursor: pointer;
+}
+
+.entry h3 em {
+  font-weight: bolder;
+  font-style: normal;
+}
+
+h3 a {
+  padding: 0.8em;
+  margin-top:40px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background-color: #feef45;
+  max-width: 140px;
+  color: #000;
+  text-align: center;
+}
+
+div + div {
+  margin-top: 0;
+}

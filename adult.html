@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>A Blog For All Ages</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script type="text/javascript">
+      function toggle(obj) {
+        var obj=document.getElementById(obj);
+        if (obj.style.display == "block") obj.style.display = "none";
+        else obj.style.display = "block";
+      }
+    </script>
+    <h1><span style="color:blue"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Emojione_1F602.svg/1200px-Emojione_1F602.svg.png" style="width:35px; height:35px; border:none">A Blog - Add laughter to your life journey...Make it wonder</span></h1>
+    <h2><span>The Adult</span></h2>
+    <a href="adult.html"><img alt="Adult Section" src="images/Adults.jpg" /></a>
+
+		<div id="entries">
+			<div class="entry">
+				<h3 onClick="toggle('body1')" style="color: green"><em>June 5, 2020</em> Observations on Aging</h3>
+				<div id="body1" style="display:none;">
+					<p style="color: green">Some people try to turn back their odometers. Not me! My theory on aging is that I want people to know 'why' I look this way. I've traveled a long way and many of the roads weren't paved.</p>
+					<p style="color: green">First you forget names, then you forget faces.</p>
+					<p style="color: green">Being young is beautiful, but being old is comfortable.</p>
+					<img src="https://ak.picdn.net/shutterstock/videos/6118733/thumb/1.jpg">
+					<p style="color: green">When you are dissatisfied and would like to go back to your youth, remember Algebra.</p>
+					<p style="color: green">being young.</p>
+					<p style="color: green">One of the many things no one tells you about aging is that it is better than being young.</p>
+				</div>
+			</div>
+
+			<div class="entry">
+				<h3 onClick="toggle('body2')" style="color: purple"><em>May 21, 2020</em> THE FOUR STAGES OF LIFE</h3>
+				<div id="body2" style="display:none;">
+					<img src="https://img.etimg.com/thumb/msid-61895405,width-1200,height-900,imgsize-66918,overlay-etpanache/photo.jpg">
+					<p style="color: purple">1.  You believe in Santa Claus.</p>
+					<p style="color: purple">2.  You don't believe in Santa Claus.</p>
+					<p style="color: purple">3.  You are Santa Claus.</p>
+					<p style="color: purple">4.  You look like Santa Claus.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+    <h3><a href="index.html">Go Back</a></h3>
+  </body> 
+</html>
